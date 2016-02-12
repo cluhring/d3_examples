@@ -28,7 +28,7 @@ var baseMapSVG = svg.attr({
 
 // lots of other projections here
 
-var projection = d3.geo.albersUsa();
+var projection = d3.geo.albers();
 
 // Path generator
 // Geo Path generators work similarly to regular path generators in D3 (like d3.svg.line or d3.svg.area).

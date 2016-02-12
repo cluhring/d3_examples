@@ -15,7 +15,7 @@ var baseMapSVG = svg.attr({ width: width, height: height})
 // projection. This is meant to display the United states
 // with hawaii and alaska in the lower left corner, scaled down
 
-var projection = d3.geo.albersUsa();
+var projection = d3.geo.albers();
 
 // Path generator
 var path = d3.geo.path()
